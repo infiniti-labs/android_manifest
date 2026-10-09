@@ -9,7 +9,7 @@
   <!-- CLO -->
   <remote name="clo-la" fetch="https://git.codelinaro.org/clo/la" sync-c="true" sync-tags="false"/>
   <remote name="clo-la-shallow" fetch="https://git.codelinaro.org/clo/la" sync-c="true" sync-tags="false" revision="refs/tags/LA.QSSI.17.0.r1-11300-qssi.0"/>
-  <default remote="clo-la"/>
+  <default remote="clo-la" revision="seventeen"/>
   <include name="snippets/system.xml"/>
   <include name="snippets/system-shallow.xml"/>
   <include name="snippets/vendor.xml"/>
